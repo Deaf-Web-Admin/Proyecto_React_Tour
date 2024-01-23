@@ -1,0 +1,51 @@
+.counterAPP {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 180px;
+  height: 270px;
+  flex-wrap: wrap;
+}
+.buttonplus,
+.buttonsubtract,
+.buttonzero,
+.LCDScreen {
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 80px;
+}
+.LCDScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  background-color: white;
+  width: 175px;
+  height: 80px;
+}
+.buttonplus {
+  background-image: url(/symbols.jpg);
+  background-size: 285px;
+  width: 80px;
+}
+.buttonsubtract {
+  background-image: url(/symbols.jpg);
+  background-size: 285px;
+  background-position-x: -70px;
+  width: 80px;
+}
+.buttonzero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  background-color: white;
+  width: 175px;
+}
